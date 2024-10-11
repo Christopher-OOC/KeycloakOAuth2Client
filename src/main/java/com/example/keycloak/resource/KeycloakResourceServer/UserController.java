@@ -29,6 +29,8 @@ public class UserController {
         HttpHeaders headers = new HttpHeaders();
         headers.add("Authorization", "Bearer " + accessToken);
 
+        //Break Point
+
         String uri = "http://localhost:9091/users";
 
         HttpEntity<String> httpEntity = new HttpEntity<>(headers);
